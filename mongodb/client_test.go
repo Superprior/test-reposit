@@ -9,6 +9,7 @@ import (
 )
 
 var host = flag.String("host", "127.0.0.1", "MongoDB host")
+
 var port = flag.Int("port", 27017, "MongoDB port")
 
 func Test(t *testing.T) {
